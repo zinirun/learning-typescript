@@ -1,0 +1,12 @@
+{
+  "name": "learning-typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/zinirun/learning-typescript.git",
+  "author": "zinirun <heojj97@naver.com>",
+  "license": "MIT",
+  "dependencies": {
+    "ts-node": "^9.0.0",
+    "typescript": "^4.1.2"
+  }
+}
