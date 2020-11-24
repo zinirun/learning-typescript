@@ -12,27 +12,26 @@
 type Person = {
     name: string;
     age?: number;
-}
+};
 
 type Developer = Person & {
     skills: string[];
-}
+};
 
 const person: Person = {
     name: 'zini',
     age: 20,
-}
+};
 
 const expert: Developer = {
     name: 'zini',
     age: 20,
-    skills: ['javascript', 'typescript']
-}
+    skills: ['javascript', 'typescript'],
+};
 
 type People = Person[];
 
 const people: People = [person, expert];
-
 
 type Color = 'red' | 'green' | 'yellow';
 const color: Color = 'red';
