@@ -1,15 +1,10 @@
 import React from 'react';
-import MyForm from './MyForm'
+import CounterReducer from './CounterReducer';
 
-function App() {
-  const onSubmit = (form: {name: string; description: string}) => {
-    console.log(form)
-  }
-  return (
-    <>
-    <MyForm onSubmit={onSubmit}/>
-    </>
-  );
+export default function App() {
+    return (
+        <>
+            <CounterReducer />
+        </>
+    );
 }
-
-export default App;
