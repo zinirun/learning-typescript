@@ -1,10 +1,11 @@
 import React from 'react';
-import CounterReducer from './CounterReducer';
+import ReducerSample from './ReducerSample';
+import { SampleProvider } from './SampleContext';
 
 export default function App() {
     return (
-        <>
-            <CounterReducer />
-        </>
+        <SampleProvider>
+            <ReducerSample />
+        </SampleProvider>
     );
 }
